@@ -24,7 +24,7 @@ corpus:
       augmentation: 0.1
       augmentation_length: [1, 25]
     # char augmentable corpus
-    - paths: [../corpus.txt]
+    - paths: [corpus.txt]
       weights: []
       min_length: 1
       max_length: 25
