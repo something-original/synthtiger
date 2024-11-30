@@ -16,7 +16,7 @@ corpus:
   weights: [1, 0]
   args:
     # length augmentable corpus
-    - paths: [resources/corpus/mjsynth.txt, resources/corpus/synthtext.txt]
+    - paths: []
       weights: [1, 1]
       min_length: 1
       max_length: 25
@@ -24,7 +24,7 @@ corpus:
       augmentation: 0.1
       augmentation_length: [1, 25]
     # char augmentable corpus
-    - paths: []
+    - paths: [../../corpus.txt]
       weights: []
       min_length: 1
       max_length: 25
