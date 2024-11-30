@@ -17,7 +17,7 @@ corpus:
   args:
     # length augmentable corpus
     - paths: [corpus.txt]
-      weights: [1, 1]
+      weights: [1]
       min_length: 1
       max_length: 25
       textcase: [lower, upper, capitalize]
@@ -25,7 +25,7 @@ corpus:
       augmentation_length: [1, 25]
     # char augmentable corpus
     - paths: [corpus.txt]
-      weights: [1, 1]
+      weights: [1]
       min_length: 1
       max_length: 25
       textcase: [lower, upper, capitalize]
